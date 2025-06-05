@@ -2,7 +2,7 @@
 > **Deskripsi:** Modul ini menangani seluruh proses pembelian barang di perusahaan, mulai dari permintaan barang oleh Staf Gudang, persetujuan oleh Manajer, hingga pembuatan Order Pembelian dan penerimaan barang dari vendor.
 > 
 
-**Goal Epic:**
+**Goal Epic:**<br>
 Memastikan proses pembelian berjalan tertib, terdokumentasi, serta melibatkan validasi dan otorisasi sebelum barang dibeli dari vendor.
 
 [**🧩 User Story UR-01: Permintaan Pembelian Barang**](https://www.notion.so/User-Story-UR-01-Permintaan-Pembelian-Barang-1c23722a8ea580499917fd65d1432687?pvs=21)
