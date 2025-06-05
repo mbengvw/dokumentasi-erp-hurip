@@ -95,5 +95,6 @@ Kebutuhan fungsional mendefinisikan layanan, fitur, dan fungsi utama yang harus 
 
 ><i class="fas fa-handshake"></i> [Modul Penjualan](docs/modul_perdagangan_umum.md)
 
-><i class="fas fa-handshake"></i> [Modul Akunting](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Akunting](docs/modul_perdagangan_umum.md)
+
 >:heart:[Modul Akunting](docs/modul_perdagangan_umum.md)
