@@ -5,7 +5,7 @@
 **Goal Epic:**<br>
 Memastikan proses pembelian berjalan tertib, terdokumentasi, serta melibatkan validasi dan otorisasi sebelum barang dibeli dari vendor.
 
-> [:toolbox: ** User Story UR-01: Permintaan Pembelian Barang**](https://www.notion.so/User-Story-UR-01-Permintaan-Pembelian-Barang-1c23722a8ea580499917fd65d1432687?pvs=21)
+> [:toolbox: **User Story UR-01: Permintaan Pembelian Barang**](https://www.notion.so/User-Story-UR-01-Permintaan-Pembelian-Barang-1c23722a8ea580499917fd65d1432687?pvs=21)
 
 [🧩 User Story UR-02: Membuat Order Pembelian](https://www.notion.so/User-Story-UR-02-Membuat-Order-Pembelian-1c33722a8ea580949511ffe22b812dca?pvs=21)
 
