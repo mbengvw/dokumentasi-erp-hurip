@@ -83,18 +83,17 @@ Berikut adalah kebutuhan sistem yang teridentifikasi pada pembangunan sistem inf
 Kebutuhan fungsional mendefinisikan layanan, fitur, dan fungsi utama yang harus disediakan oleh sistem. Kebutuhan ini berkaitan langsung dengan bagaimana pengguna berinteraksi dengan sistem dan bagaimana sistem memproses data serta memberikan output. Kebutuhan fungsional dirancang untuk mendukung semua sektor usaha PT. HURIP UTAMA. Berikut adalah daftar kebutuhan fungsional dalam bentuk user stories:
 
 
-><i class="fas fa-coins"></i> [Modul Manajemen Perdagangan Umum](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Manajemen Perdagangan Umum](docs/modul_perdagangan_umum.md)
 
-><i class="fas fa-building-columns"></i> [Modul Manajemen Jasa Konstruksi](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Manajemen Jasa Konstruksi](docs/modul_jasa_konstruksi.md)
 
-><i class="fas fa-tractor"></i> [Modul Manajemen Jasa Penyewaan Kendaraan](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Manajemen Jasa Penyewaan Kendaraan](docs/modul_jasa_penyewaan_alat_berat.md.md)
 
-><i class="fas fa-handshake"></i> [Modul Manajemen Penyedia Tenaga Kerja](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Manajemen Penyedia Tenaga Kerja](docs/modlu_penyedia_tenaga_ahli.md)
 
-><i class="fas fa-handshake"></i> [Modul Pembelian](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Pembelian](docs/modul_pembelian.md)
 
-><i class="fas fa-handshake"></i> [Modul Penjualan](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Penjualan](docs/modul_penjualan.md)
 
->:fire: [Modul Akunting](docs/modul_perdagangan_umum.md)
+>:fire: [Modul Akunting](docs/modul_akkunting.md)
 
->:heart:[Modul Akunting](docs/modul_perdagangan_umum.md)
