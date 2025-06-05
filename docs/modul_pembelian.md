@@ -5,12 +5,12 @@
 **Goal Epic:**<br>
 Memastikan proses pembelian berjalan tertib, terdokumentasi, serta melibatkan validasi dan otorisasi sebelum barang dibeli dari vendor.
 
-> [:toolbox: **User Story UR-01: Permintaan Pembelian Barang**](https://www.notion.so/User-Story-UR-01-Permintaan-Pembelian-Barang-1c23722a8ea580499917fd65d1432687?pvs=21)
+> [:toolbox: **User Story UR-01: Permintaan Pembelian Barang**](/docs/user_story/ur_01.md)
 
-> [🧩 User Story UR-02: Membuat Order Pembelian](https://www.notion.so/User-Story-UR-02-Membuat-Order-Pembelian-1c33722a8ea580949511ffe22b812dca?pvs=21)
+> [:toolbox: **User Story UR-02: Membuat Order Pembelian**](/docs/user_story/ur_02.md)
 
-> [🧩 User Story UR-03: Penerimaan Barang dari Vendor](https://www.notion.so/User-Story-UR-03-Penerimaan-Barang-dari-Vendor-1c33722a8ea5805fbf71c6665a806ffa?pvs=21)
+> [:toolbox: **User Story UR-03: Penerimaan Barang dari Vendor**](/docs/user_story/ur_03.md)
 
-> [🧩 User Story UR-04: Tukar Faktur dari Vendor](https://www.notion.so/User-Story-UR-04-Tukar-Faktur-dari-Vendor-1c33722a8ea58076a2d3f3ecc8074b01?pvs=21)
+> [:toolbox: **User Story UR-04: Tukar Faktur dari Vendor**](/docs/user_story/ur_04.md)
 
-> [🧩 User Story UR-05: Retur Pembelian](https://www.notion.so/User-Story-UR-05-Retur-Pembelian-1c33722a8ea58019a18bcc9913004ea9?pvs=21)
+> [:toolbox: **User Story UR-05: Retur Pembelian**](/docs/user_story/ur_05.md)
