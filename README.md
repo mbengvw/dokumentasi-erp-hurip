@@ -1,7 +1,8 @@
+![Cover](/img/cover.png)
 # Core ERP Sistem PT. HURIP UTAMA
-Dokumntasi sistem akuntasi di PT. Hurip Utama
-# Pendahuluan
+Dokumntasi sistem akuntasi di PT. Hurip Utama<br><br><br>
 
+# Pendahuluan
 ## **1.1 Latar Belakang**
 
 PT. HURIP UTAMA adalah sebuah perusahaan yang berlokasi di Cikampek, Jawa Barat, dan merupakan anak perusahaan dari PT. PUPUK KUJANG. Perusahaan ini bergerak di berbagai sektor usaha, termasuk perdagangan umum, jasa konstruksi, penyewaan kendaraan angkutan karyawan, penyewaan alat berat, serta penyedia tenaga kerja. Dengan cakupan bisnis yang luas dan kompleks, PT. HURIP UTAMA membutuhkan sistem informasi terintegrasi yang dapat mengelola seluruh aktivitas bisnisnya secara efisien dan efektif.
@@ -81,18 +82,18 @@ Berikut adalah kebutuhan sistem yang teridentifikasi pada pembangunan sistem inf
 
 Kebutuhan fungsional mendefinisikan layanan, fitur, dan fungsi utama yang harus disediakan oleh sistem. Kebutuhan ini berkaitan langsung dengan bagaimana pengguna berinteraksi dengan sistem dan bagaimana sistem memproses data serta memberikan output. Kebutuhan fungsional dirancang untuk mendukung semua sektor usaha PT. HURIP UTAMA. Berikut adalah daftar kebutuhan fungsional dalam bentuk user stories:
 
-[**📦 Epic: Modul Manajemen Perdagangan Umum**](https://www.notion.so/Epic-Modul-Manajemen-Perdagangan-Umum-1c23722a8ea580928438fd910145bbfe?pvs=21)
 
-[**📦 Epic: Modul Manajemen Jasa Konstruksi**](https://www.notion.so/Epic-Modul-Manajemen-Jasa-Konstruksi-1c23722a8ea5808a9e8ad775beaa30d5?pvs=21)
+><i class="fas fa-coins"></i> [Modul Manajemen Perdagangan Umum](docs/modul_perdagangan_umum.md)
 
-[**📦 Epic: Modul Manajemen Penyewaan Kendaraan dan Alat Berat**](https://www.notion.so/Epic-Modul-Manajemen-Penyewaan-Kendaraan-dan-Alat-Berat-1c23722a8ea580fea403de9ed71739c1?pvs=21)
+><i class="fas fa-building-columns"></i> [Modul Manajemen Jasa Konstruksi](docs/modul_perdagangan_umum.md)
 
-[**📦 Epic: Modul Manajemen Penyediaan Tenaga Kerja**](https://www.notion.so/Epic-Modul-Manajemen-Penyediaan-Tenaga-Kerja-1c23722a8ea580e082e5ce1f7ef63a99?pvs=21)
+><i class="fas fa-tractor"></i> [Modul Manajemen Jasa Penyewaan Kendaraan](docs/modul_perdagangan_umum.md)
 
-[📦 Epic: Modul Pembelian (AP)](https://www.notion.so/Epic-Modul-Pembelian-AP-1c23722a8ea580228058f035b295c611?pvs=21)
+><i class="fas fa-handshake"></i> [Modul Manajemen Penyedia Tenaga Kerja](docs/modul_perdagangan_umum.md)
 
-[📦 Epic: Modul Penjualan (AR)](https://www.notion.so/Epic-Modul-Penjualan-AR-1c33722a8ea5803ebf18ee3ee9704ea5?pvs=21)
+><i class="fas fa-handshake"></i> [Modul Pembelian](docs/modul_perdagangan_umum.md)
 
-[📦 Epic: Modul Pelaporan Akunting](https://www.notion.so/Epic-Modul-Pelaporan-Akunting-1c33722a8ea580c595f4ea23c378b61e?pvs=21)
+><i class="fas fa-handshake"></i> [Modul Penjualan](docs/modul_perdagangan_umum.md)
 
-[**📘 Daftar Use Case**](https://www.notion.so/Daftar-Use-Case-1c33722a8ea580a89c15e1332244c3fb?pvs=21)
+><i class="fas fa-handshake"></i> [Modul Akunting](docs/modul_perdagangan_umum.md)
+>:heart:[Modul Akunting](docs/modul_perdagangan_umum.md)
