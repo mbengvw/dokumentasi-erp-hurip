@@ -17,18 +17,20 @@
 
 ## ✅ Use Case yang Terlibat 
 
->**🔹 Use Case UC-SO-01: Buat Sales Order**
->**Actor:** Petugas Sektor
->*Deskripsi:** Petugas mengisi form Sales Order dan menyimpannya sebagai draft.
->**Alur Normal:**
->- Petugas login dan buka modul Sales Order.
->- Klik tombol “Buat Baru”.
->- Mengisi data proyek dan layanan.
->- Menyimpan SO (status: draft).
->**Output:** Sales Order baru dengan status draft tersimpan.
-<br>
+**🔹 Use Case UC-SO-01: Buat Sales Order**
 
->**🔹 Use Case UC-SO-02: Edit Sales Order**
+**Actor:** Petugas Sektor
+**Deskripsi :** Petugas mengisi form Sales Order dan menyimpannya sebagai draft.
+**Alur Normal:**
+- Petugas login dan buka modul Sales Order.
+- Klik tombol “Buat Baru”.
+- Mengisi data proyek dan layanan.
+- Menyimpan SO (status: draft).
+
+**Output:** Sales Order baru dengan status draft tersimpan.
+<hr>
+
+**🔹 Use Case UC-SO-02: Edit Sales Order**
 >**Actor:** Petugas Sektor
 >**Deskripsi:** Petugas dapat mengubah data SO selama masih dalam status draft.
 >**Alur Normal:**
@@ -37,7 +39,7 @@
 >- Melakukan pengeditan lalu menyimpan kembali.
 ><br>
 
->**🔹 Use Case UC-SO-03: Hapus Sales Order**
+**🔹 Use Case UC-SO-03: Hapus Sales Order**
 >**Actor:** Petugas Sektor
 >**Deskripsi:** Petugas menghapus SO selama belum di-approve.
 >**Alur Normal:**
