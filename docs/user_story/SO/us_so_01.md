@@ -31,25 +31,25 @@
 <hr>
 
 **🔹 Use Case UC-SO-02: Edit Sales Order**
->**Actor:** Petugas Sektor
->**Deskripsi:** Petugas dapat mengubah data SO selama masih dalam status draft.
->**Alur Normal:**
->- Petugas membuka daftar SO.
->- Memilih SO dengan status draft.
->- Melakukan pengeditan lalu menyimpan kembali.
-><br>
-
-**🔹 Use Case UC-SO-03: Hapus Sales Order**
->**Actor:** Petugas Sektor
->**Deskripsi:** Petugas menghapus SO selama belum di-approve.
->**Alur Normal:**
->- Petugas membuka daftar SO draft.
->- Klik tombol “Hapus”.
->- Sistem meminta konfirmasi, lalu menghapus.
+**Actor:** Petugas Sektor
+**Deskripsi:** Petugas dapat mengubah data SO selama masih dalam status draft.
+**Alur Normal:**
+- Petugas membuka daftar SO.
+- Memilih SO dengan status draft.
+- Melakukan pengeditan lalu menyimpan kembali.
 <br>
 
->**🔹 Use Case 4: Kirim Notifikasi Approval ke Manajer**
->**Actor :** Sistem
->**Trigger :** SO berhasil dibuat atau diubah dan disubmit untuk approval.
->**Deskripsi :** Sistem mengirimkan notifikasi otomatis ke manajer sektor terkait.
->**Output :** Manajer mendapat notifikasi untuk review dan approval.
+**🔹 Use Case UC-SO-03: Hapus Sales Order**
+**Actor:** Petugas Sektor
+**Deskripsi:** Petugas menghapus SO selama belum di-approve.
+**Alur Normal:**
+- Petugas membuka daftar SO draft.
+- Klik tombol “Hapus”.
+- Sistem meminta konfirmasi, lalu menghapus.
+<br>
+
+**🔹 Use Case 4: Kirim Notifikasi Approval ke Manajer**
+**Actor :** Sistem
+**Trigger :** SO berhasil dibuat atau diubah dan disubmit untuk approval.
+**Deskripsi :** Sistem mengirimkan notifikasi otomatis ke manajer sektor terkait.
+**Output :** Manajer mendapat notifikasi untuk review dan approval.
