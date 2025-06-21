@@ -20,8 +20,8 @@
 
 **🔹 Use Case 1: Review Sales Order**
 
-**Actor:** Manajer Sektor
-**Deskripsi:** Melihat detail dari SO yang masuk untuk disetujui.
+**Actor:** Manajer Sektor  
+**Deskripsi:** Melihat detail dari SO yang masuk untuk disetujui.  
 **Alur Normal:**
 - Manajer login ke sistem.
 - Membuka daftar SO yang menunggu approval.
@@ -30,8 +30,8 @@
 
 **🔹 Use Case 2: Approve Sales Order**
 
-**Actor:** Manajer Sektor
-**Deskripsi:** Menyetujui SO agar dapat dilanjutkan ke proses Work Order.
+**Actor:** Manajer Sektor  
+**Deskripsi:** Menyetujui SO agar dapat dilanjutkan ke proses Work Order.  
 **Alur Normal:**
 
 - Manajer meninjau SO.
@@ -42,8 +42,8 @@
 
 **🔹 Use Case 3: Reject Sales Order**
 
-**Actor:** Manajer Sektor
-**Deskripsi:** Menolak SO jika ada kesalahan atau ketidaksesuaian.
+**Actor:** Manajer Sektor  
+**Deskripsi:** Menolak SO jika ada kesalahan atau ketidaksesuaian.  
 **Alur Normal:**
 
 - Manajer memilih SO.
@@ -54,6 +54,6 @@
 
 **🔹 Use Case 4: Audit Approval Log**
 
-**Actor:** Sistem (dapat juga diakses oleh Auditor/Admin)
-**Deskripsi:** Menyimpan log siapa yang menyetujui/menolak dan kapan.
+**Actor:** Sistem (dapat juga diakses oleh Auditor/Admin)  
+**Deskripsi:** Menyimpan log siapa yang menyetujui/menolak dan kapan.  
 **Output:** Catatan log tersedia untuk kebutuhan audit.
