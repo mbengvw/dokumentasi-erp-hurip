@@ -20,8 +20,8 @@
 
 **🔹 Use Case 1: Buat Work Order**
 
-**Actor:** Staf Sektor
-**Deskripsi:** Staf memilih SO yang sudah disetujui, lalu mengisi dan menyimpan WO.
+**Actor:** Staf Sektor  
+**Deskripsi:** Staf memilih SO yang sudah disetujui, lalu mengisi dan menyimpan WO.  
 **Alur Normal:**
 
 - Staf login dan buka daftar SO yang approved.
@@ -33,27 +33,24 @@
 
 **🔹 Use Case 2: Lihat Daftar Work Order**
 
-**Actor:** Semua peran yang relevan (Staf, Manajer Proyek, dll.)
-**Deskripsi:** Melihat daftar WO yang telah diterbitkan.
+**Actor:** Semua peran yang relevan (Staf, Manajer Proyek, dll.)  
+**Deskripsi:** Melihat daftar WO yang telah diterbitkan.  
 **Alur Normal:**
 - User login dan buka modul WO.
 - Filter berdasarkan sektor, status, proyek, dsb.
 <hr>
 
-🔹 Use Case 3: Batalkan Work Order (opsional)
+**🔹 Use Case 3: Batalkan Work Order (opsional)**
 
-    Actor: User berwenang (misalnya: Kepala Sektor)
+**Actor:** User berwenang (misalnya: Kepala Sektor)  
+**Deskripsi:** Melakukan void WO jika terjadi kesalahan.  
+**Alur Normal:**
 
-    Deskripsi: Melakukan void WO jika terjadi kesalahan.
+- Buka WO → Klik “Batalkan”.
+- Masukkan alasan → Sistem ubah status WO jadi void.
+<hr>
 
-    Alur Normal:
+**🔹 Use Case 4: Tautkan WO ke proses selanjutnya**
 
-        Buka WO → Klik “Batalkan”.
-
-        Masukkan alasan → Sistem ubah status WO jadi void.
-
-🔹 Use Case 4: Tautkan WO ke proses selanjutnya
-
-    Actor: Sistem
-
-    Deskripsi: WO yang diterbitkan dapat diproses oleh Manajer Proyek untuk membuat penganggaran.
+**Actor:** Sistem  
+**Deskripsi:** WO yang diterbitkan dapat diproses oleh Manajer Proyek untuk membuat penganggaran.
