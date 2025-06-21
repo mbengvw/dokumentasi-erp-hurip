@@ -8,12 +8,12 @@
 |<div style="width: 60px;">No</div>	|Kriteria |Penjelasan|
 |-------|------|------|
 |AC-01	|Petugas dapat mengakses form input SO	|Form tersedia sesuai hak akses petugas sektor.
-|AC-02	|Form SO memiliki field yang lengkap	Misalnya: nomor SO, tanggal, nama proyek, nama customer, sektor usaha, jenis layanan, nilai estimasi, deskripsi, dsb.|
-|AC-03	|SO yang diinput akan disimpan sebagai status draft	SO tidak langsung aktif sebelum ada approval.|
-|AC-04	|Petugas dapat menyimpan, mengedit, atau menghapus SO sebelum di-approve	Memberi fleksibilitas sebelum dikunci.|
-|AC-05	|Setelah submit, sistem mencatat waktu input dan user yang membuat	Audit trail disimpan.|
-|AC-06	|Sistem memberi notifikasi ke manajer sektor untuk approval	Proses approval dipicu otomatis.|
-|AC-07	|Validasi dilakukan pada field wajib (required fields)	Tidak bisa disubmit jika data belum lengkap.|
+|AC-02	|Form SO memiliki field yang lengkap	|Misalnya: nomor SO, tanggal, nama proyek, nama customer, sektor usaha, jenis layanan, nilai estimasi, deskripsi, dsb.|
+|AC-03	|SO yang diinput akan disimpan sebagai status draft	|SO tidak langsung aktif sebelum ada approval.|
+|AC-04	|Petugas dapat menyimpan, mengedit, atau menghapus SO sebelum di-approve	|Memberi fleksibilitas sebelum dikunci.|
+|AC-05	|Setelah submit, sistem mencatat waktu input dan user yang membuat|	Audit trail disimpan.|
+|AC-06	|Sistem memberi notifikasi ke manajer sektor untuk approval	|Proses approval dipicu otomatis.|
+|AC-07	|Validasi dilakukan pada field wajib (required fields)	|Tidak bisa disubmit jika data belum lengkap.|
 
 ## ✅ Use Case yang Terlibat 
 
@@ -37,7 +37,7 @@
 - Petugas membuka daftar SO.
 - Memilih SO dengan status draft.
 - Melakukan pengeditan lalu menyimpan kembali.
-<br>
+<hr>
 
 **🔹 Use Case UC-SO-03: Hapus Sales Order**  
 **Actor:** Petugas Sektor  
@@ -46,7 +46,7 @@
 - Petugas membuka daftar SO draft.
 - Klik tombol “Hapus”.
 - Sistem meminta konfirmasi, lalu menghapus.
-<br>
+<hr>
 
 **🔹 Use Case 4: Kirim Notifikasi Approval ke Manajer**
 **Actor :** Sistem  
