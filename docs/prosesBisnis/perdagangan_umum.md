@@ -84,6 +84,6 @@ Untuk dapat membangun sistem informasi akuntansi yang mendukung proses tersebut 
 
 Pendekatan ini tidak hanya membantu merinci fungsionalitas sistem dari sudut pandang pengguna, tetapi juga menjadi dasar yang kuat bagi tim pengembang dalam merancang dan mengimplementasikan solusi yang tepat sasaran. Fokus pada sektor perdagangan ini akan mencakup seluruh alur operasional mulai dari pencatatan permintaan pelanggan (Sales Order) hingga tahap persiapan operasional (Work Order), yang akan dijabarkan secara sistematis dalam bagian-bagian berikut.
 
-> [User Story US-SO-01: Input Sales Order](/docs/user_story/SO/us_so_01.md)
+> [User Story US-SO-01: Input Sales Order](/docs/userStories/SO/us_so_01.md)
 
-> [User Story US-SO-02: Approval Sales Order](/docs/user_story/SO/us_so_02.md)
+> [User Story US-SO-02: Approval Sales Order](/docs/userStories/SO/us_so_02.md)
