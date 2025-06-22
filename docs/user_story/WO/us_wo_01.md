@@ -1,8 +1,8 @@
 # 🎯 US-03: Penerbitan Work Order (WO)
 ## ✅ User Story
 
->**Sebagai** Staf Sektor,
-**Saya ingin** membuat Work Order (WO) berdasarkan Sales Order (SO) yang telah disetujui,
+>**Sebagai** Staf Sektor,  
+**Saya ingin** membuat Work Order (WO) berdasarkan Sales Order (SO) yang telah disetujui,  
 **Agar** pekerjaan dapat dimulai secara resmi dan terstruktur.
 
 ## ✅ Acceptance Criteria
