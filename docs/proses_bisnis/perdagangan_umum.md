@@ -75,6 +75,15 @@ Deskripsi Proses: Jika dalam pesanan terdapat kebutuhan untuk pengadaan barang a
 - Barang yang diterima akan diteruskan ke bagian produksi atau pengiriman sesuai dengan kebutuhan.
 
 
-## 3. Diagram Alur Proses
+## 3. Diagram Alur Proses Bisnis
 
+## 4. Analisis Sistem
+Pada bagian sebelumnya telah dijelaskan proses bisnis sektor perdagangan yang berjalan di perusahaan, mulai dari inisiasi permintaan oleh pelanggan hingga penyelesaian pekerjaan dan pelaporan keuangan. Proses tersebut mencakup beberapa tahapan penting seperti pembuatan Sales Order (SO), approval oleh manajer sektor, penerbitan Work Order (WO), penyusunan anggaran, hingga pengadaan barang jika diperlukan.
 
+Untuk dapat membangun sistem informasi akuntansi yang mendukung proses tersebut secara efektif, diperlukan pemahaman yang komprehensif terhadap kebutuhan pengguna (user needs) di setiap tahapan bisnis. Oleh karena itu, pada bab ini akan dibahas analisis sistem berdasarkan pendekatan Agile melalui penyusunan user story, acceptance criteria, dan use case sebagai representasi dari kebutuhan pengguna terhadap fitur sistem yang akan dibangun.
+
+Pendekatan ini tidak hanya membantu merinci fungsionalitas sistem dari sudut pandang pengguna, tetapi juga menjadi dasar yang kuat bagi tim pengembang dalam merancang dan mengimplementasikan solusi yang tepat sasaran. Fokus pada sektor perdagangan ini akan mencakup seluruh alur operasional mulai dari pencatatan permintaan pelanggan (Sales Order) hingga tahap persiapan operasional (Work Order), yang akan dijabarkan secara sistematis dalam bagian-bagian berikut.
+
+> [User Story US-SO-01: Input Sales Order](/docs/user_story/SO/us_so_01.md)
+
+> [User Story US-SO-02: Approval Sales Order](/docs/user_story/SO/us_so_02.md)
