@@ -87,3 +87,5 @@ Pendekatan ini tidak hanya membantu merinci fungsionalitas sistem dari sudut pan
 > [User Story US-SO-01: Input Sales Order](../userStories/SO/us_so_01.md)
 
 > [User Story US-SO-02: Approval Sales Order](../userStories/SO/us_so_02.md)
+
+> [User Story US-WO-01: Penerbitan Work Order](../userStories/WO/us_wo_01.md)
