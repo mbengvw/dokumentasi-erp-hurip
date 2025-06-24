@@ -82,10 +82,10 @@ Berikut adalah kebutuhan sistem yang teridentifikasi pada pembangunan sistem inf
 
 Kebutuhan fungsional mendefinisikan layanan, fitur, dan fungsi utama yang harus disediakan oleh sistem. Kebutuhan ini berkaitan langsung dengan bagaimana pengguna berinteraksi dengan sistem dan bagaimana sistem memproses data serta memberikan output. Kebutuhan fungsional dirancang untuk mendukung semua sektor usaha PT. HURIP UTAMA. Berikut adalah daftar kebutuhan fungsional dalam bentuk user stories:
 
-> [Perdagangan Umum](prosesBisnis/perdagangan_umum.html)
+> [Perdagangan Umum](./prosesBisnis/perdagangan_umum.md)
 
-> [Jasa Konstruksi](prosesBisnis/jasa_konstruksi.html)
+> [Jasa Konstruksi](./prosesBisnis/jasa_konstruksi.md)
 
-> [Jasa Penyewaan Kendaraan dan Alat Berat](prosesBisnis/jasa_penyewaan_alat_berat.html)
+> [Jasa Penyewaan Kendaraan dan Alat Berat](./prosesBisnis/jasa_penyewaan_alat_berat.md)
 
-> [Jasa Penyediaan Tenaga Ahli](prosesBisnis/penyedia_tenaga_ahli.html)
+> [Jasa Penyediaan Tenaga Ahli](./prosesBisnis/penyedia_tenaga_ahli.md)
