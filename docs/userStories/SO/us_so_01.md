@@ -5,15 +5,52 @@
 **Agar** proses bisnis sektor bisa dimulai secara terstruktur dan terdokumentasi.
 
 ## ✅ Acceptance Criteria
-|<div style="width: 60px;">No</div>	|Kriteria |Penjelasan|
-|-------|------|------|
-|AC-01	|Petugas dapat mengakses form input SO	|Form tersedia sesuai hak akses petugas sektor.
-|AC-02	|Form SO memiliki field yang lengkap	|Misalnya: nomor SO, tanggal, nama proyek, nama customer, sektor usaha, jenis layanan, nilai estimasi, deskripsi, dsb.|
-|AC-03	|SO yang diinput akan disimpan sebagai status draft	|SO tidak langsung aktif sebelum ada approval.|
-|AC-04	|Petugas dapat menyimpan, mengedit, atau menghapus SO sebelum di-approve	|Memberi fleksibilitas sebelum dikunci.|
-|AC-05	|Setelah submit, sistem mencatat waktu input dan user yang membuat|	Audit trail disimpan.|
-|AC-06	|Sistem memberi notifikasi ke manajer sektor untuk approval	|Proses approval dipicu otomatis.|
-|AC-07	|Validasi dilakukan pada field wajib (required fields)	|Tidak bisa disubmit jika data belum lengkap.|
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="width: 60px; border: 1px solid #ccc; padding: 8px;">No</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Kriteria</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-01</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Manajer dapat melihat daftar SO yang menunggu persetujuan</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Sistem menampilkan SO dengan status draft/menunggu approval.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-02</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Manajer dapat melihat detail isi SO</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Termasuk informasi proyek, customer, nilai estimasi, jenis layanan, deskripsi, dsb.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-03</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Manajer dapat menyetujui atau menolak SO</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Tersedia opsi “Setujui” dan “Tolak” pada setiap SO.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-04</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Jika disetujui, status SO menjadi approved dan tidak dapat diedit lagi oleh petugas sektor</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Mencegah manipulasi setelah persetujuan.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-05</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Jika ditolak, status menjadi rejected dan disertai catatan alasan</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Dikirim kembali ke petugas sektor untuk perbaikan.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-06</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Sistem mencatat siapa yang meng-approve atau menolak, dan kapan waktunya</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Audit trail tersedia.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">AC-07</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Notifikasi dikirim ke petugas sektor setelah keputusan dibuat</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Untuk feedback langsung ke pembuat SO.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## ✅ Use Case yang Terlibat 
 
