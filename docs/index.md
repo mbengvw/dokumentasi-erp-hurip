@@ -1,4 +1,4 @@
-![Cover](/img/cover.png)
+![Cover](./img/cover.png)
 # Core ERP Sistem PT. HURIP UTAMA
 Dokumntasi sistem akuntasi di PT. Hurip Utama<br><br><br>
 
