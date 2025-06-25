@@ -15,6 +15,9 @@ Staf sektor menerima pesanan dari pelanggan, yang kemudian dicatat sebagai Sales
 
 - Sales Order yang telah dicatat diserahkan untuk diproses lebih lanjut.
 
+> **User Stuory** : [US-SO-01: Input Sales Order](../userStories/SO/us_so_01.md)
+
+
 **B. Persetujuan Sales Order oleh Pimpinan Sektor**
 Setelah Sales Order dicatat, Pimpinan Sektor akan memeriksa dan memberikan persetujuan terhadap pesanan yang diajukan. Proses ini memastikan bahwa pesanan sesuai dengan kebijakan perusahaan dan stok tersedia.
 
@@ -26,6 +29,8 @@ Pimpinan sektor memeriksa informasi dalam Sales Order, seperti ketersediaan bara
 - Jika disetujui: Pesanan dilanjutkan ke tahap pembuatan Work Order (WO).
 - Jika ditolak: Staf sektor diminta untuk melakukan revisi atau pembatalan pesanan.
 
+> **User Story** : [US-SO-02: Approval Sales Order](../userStories/SO/us_so_02.md)
+
 **C. Pembuatan Work Order (WO)**
 Setelah Sales Order disetujui, dibuat Work Order (WO) sebagai instruksi untuk pengolahan dan pengiriman barang sesuai dengan pesanan yang diterima.
 
@@ -34,6 +39,9 @@ Langkah-langkah:
 >WO berisi informasi: Nomor SO yang terkait, Produk yang dipesan, Jumlah yang harus diproduksi atau disiapkan, Tanggal pengiriman yang dijadwalkan
 
 - WO diserahkan kepada bagian produksi atau gudang untuk diproses lebih lanjut.
+
+> **User Story :** [US-WO-01: Penerbitan Work Order](../userStories/WO/us_wo_01.md)
+
 
 **D. Penganggaran oleh Pimpinan Projek**
 Pimpinan Projek akan membuat anggaran untuk menjalankan pesanan yang tercatat dalam WO. Anggaran ini mencakup semua biaya yang dibutuhkan untuk menjalankan pesanan tersebut, seperti biaya barang, pengiriman, dan biaya lainnya.
