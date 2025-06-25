@@ -51,6 +51,8 @@ Pimpinan Projek akan membuat anggaran untuk menjalankan pesanan yang tercatat da
 - Pimpinan projek menyusun anggaran yang mencakup biaya produksi, biaya pengiriman, dan biaya tambahan lainnya.
 - Anggaran yang telah disusun akan diperiksa dan disetujui oleh pihak terkait sebelum dilanjutkan ke proses berikutnya.
 
+> **User Story :** [US-BG-01: Penganggaran](../userStories/budgeting/us_bg_01.md)
+
 **E. Verifikasi Anggaran oleh Verifikator**
 Setelah anggaran disusun, Verifikator perusahaan akan memeriksa anggaran tersebut untuk memastikan bahwa semua biaya tercatat dengan benar dan sesuai dengan kebijakan perusahaan.
 
@@ -97,3 +99,5 @@ Pendekatan ini tidak hanya membantu merinci fungsionalitas sistem dari sudut pan
 > [User Story US-SO-02: Approval Sales Order](../userStories/SO/us_so_02.md)
 
 > [User Story US-WO-01: Penerbitan Work Order](../userStories/WO/us_wo_01.md)
+
+> [User Story US-BG-01: Penganggaran](../userStories/budgeting/us_bg_01.md)
