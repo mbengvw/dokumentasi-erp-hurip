@@ -56,41 +56,101 @@
 ## ✅ Use Case yang Terlibat
 
 **🔹 Use Case 1: Review Sales Order**
-
-**Actor:** Manajer Sektor  
-**Deskripsi:** Melihat detail dari SO yang masuk untuk disetujui.  
-**Alur Normal:**
-- Manajer login ke sistem.
-- Membuka daftar SO yang menunggu approval.
-- Memilih salah satu SO dan membaca detailnya.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Manajer Sektor </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Melihat detail dari SO yang masuk untuk disetujui.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Manajer login ke sistem.</li>
+        <li>Membuka daftar SO yang menunggu approval.</li>
+        <li>Memilih salah satu SO dan membaca detailnya.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case 2: Approve Sales Order**
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+    Manajer Sektor  
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Menyetujui SO agar dapat dilanjutkan ke proses Work Order.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Manajer meninjau SO.</li>
+        <li>Klik “Setujui”.</li>
+        <li>Sistem mengubah status SO menjadi approved.</li>
+        <li>Notifikasi dikirim ke petugas sektor.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
-**Actor:** Manajer Sektor  
-**Deskripsi:** Menyetujui SO agar dapat dilanjutkan ke proses Work Order.  
-**Alur Normal:**
-
-- Manajer meninjau SO.
-- Klik “Setujui”.
-- Sistem mengubah status SO menjadi approved.
-- Notifikasi dikirim ke petugas sektor.
-<hr>
+<br>
 
 **🔹 Use Case 3: Reject Sales Order**
-
-**Actor:** Manajer Sektor  
-**Deskripsi:** Menolak SO jika ada kesalahan atau ketidaksesuaian.  
-**Alur Normal:**
-
-- Manajer memilih SO.
-- Klik “Tolak”, mengisi alasan penolakan.
-- Sistem mengubah status menjadi rejected.
-- Notifikasi dikirim ke petugas sektor beserta alasan.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Manajer Sektor </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Menolak SO jika ada kesalahan atau ketidaksesuaian.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Manajer memilih SO.</li>
+        <li>Klik “Tolak”, mengisi alasan penolakan.</li>
+        <li>Sistem mengubah status menjadi rejected.</li>
+        <li>Notifikasi dikirim ke petugas sektor beserta alasan.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case 4: Audit Approval Log**
-
-**Actor:** Sistem (dapat juga diakses oleh Auditor/Admin)  
-**Deskripsi:** Menyimpan log siapa yang menyetujui/menolak dan kapan.  
-**Output:** Catatan log tersedia untuk kebutuhan audit.
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Sistem (dapat juga diakses oleh Auditor/Admin)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Menyimpan log siapa yang menyetujui/menolak dan kapan.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Output</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Catatan log tersedia untuk kebutuhan audit.
+    </td>
+  </tr>
+</table>

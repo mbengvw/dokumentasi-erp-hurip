@@ -56,38 +56,91 @@
 ## ✅ Use Case yang Terlibat
 
 **🔹 Use Case 1: Buat Work Order**
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Staf Sektor</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Staf memilih SO yang sudah disetujui, lalu mengisi dan menyimpan WO.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Staf login dan buka daftar SO yang approved.</li>
+        <li>Memilih salah satu SO, klik “Buat WO”.</li>
+        <li>Form WO otomatis terisi sebagian dari data SO.</li>
+        <li>Melengkapi data tambahan WO.</li>
+        <li>Menyimpan → WO berstatus aktif dan ditautkan ke SO.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
-**Actor:** Staf Sektor  
-**Deskripsi:** Staf memilih SO yang sudah disetujui, lalu mengisi dan menyimpan WO.  
-**Alur Normal:**
-
-- Staf login dan buka daftar SO yang approved.
-- Memilih salah satu SO, klik “Buat WO”.
-- Form WO otomatis terisi sebagian dari data SO.
-- Melengkapi data tambahan WO.
-- Menyimpan → WO berstatus aktif dan ditautkan ke SO.
-<hr>
+<br>
 
 **🔹 Use Case 2: Lihat Daftar Work Order**
-
-**Actor:** Semua peran yang relevan (Staf, Manajer Proyek, dll.)  
-**Deskripsi:** Melihat daftar WO yang telah diterbitkan.  
-**Alur Normal:**
-- User login dan buka modul WO.
-- Filter berdasarkan sektor, status, proyek, dsb.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Semua peran yang relevan (Staf, Manajer Proyek, dll.)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Melihat daftar WO yang telah diterbitkan.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>User login dan buka modul WO.</li>
+        <li>Filter berdasarkan sektor, status, proyek, dsb.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case 3: Batalkan Work Order (opsional)**
-
-**Actor:** User berwenang (misalnya: Kepala Sektor)  
-**Deskripsi:** Melakukan void WO jika terjadi kesalahan.  
-**Alur Normal:**
-
-- Buka WO → Klik “Batalkan”.
-- Masukkan alasan → Sistem ubah status WO jadi void.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">User berwenang (misalnya: Kepala Sektor)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+     Melakukan void WO jika terjadi kesalahan.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Buka WO → Klik “Batalkan”.</li>
+        <li>Masukkan alasan → Sistem ubah status WO jadi void.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case 4: Tautkan WO ke proses selanjutnya**
-
-**Actor:** Sistem  
-**Deskripsi:** WO yang diterbitkan dapat diproses oleh Manajer Proyek untuk membuat penganggaran.
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Sistem</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      WO yang diterbitkan dapat diproses oleh Manajer Proyek untuk membuat penganggaran.
+    </td>
+  </tr>
+</table>

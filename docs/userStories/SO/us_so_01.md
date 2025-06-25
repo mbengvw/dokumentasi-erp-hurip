@@ -52,41 +52,108 @@
   </tbody>
 </table>
 
-## ✅ Use Case yang Terlibat 
+## ✅ Use Case Terkait 
 
 **🔹 Use Case UC-SO-01: Buat Sales Order**
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Petugas Sektor </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Petugas mengisi form Sales Order dan menyimpannya sebagai draft.  
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Petugas login dan buka modul Sales Order.</li>
+        <li>Klik tombol “Buat Baru”.</li>
+        <li>Mengisi data proyek dan layanan.</li>
+        <li>Menyimpan SO (status: draft).</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Output</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Sales Order baru dengan status draft tersimpan.
+    </td>
+  </tr>
+</table>
 
-**Actor:** Petugas Sektor  
-**Deskripsi :** Petugas mengisi form Sales Order dan menyimpannya sebagai draft.  
-**Alur Normal:**  
-- Petugas login dan buka modul Sales Order.
-- Klik tombol “Buat Baru”.
-- Mengisi data proyek dan layanan.
-- Menyimpan SO (status: draft).
-
-**Output:** Sales Order baru dengan status draft tersimpan.
-<hr>
+<br>
 
 **🔹 Use Case UC-SO-02: Edit Sales Order**  
-**Actor:** Petugas Sektor  
-**Deskripsi:** Petugas dapat mengubah data SO selama masih dalam status draft.  
-**Alur Normal:**
-- Petugas membuka daftar SO.
-- Memilih SO dengan status draft.
-- Melakukan pengeditan lalu menyimpan kembali.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Petugas Sektor</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Petugas dapat mengubah data SO selama masih dalam status draft.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Petugas membuka daftar SO.</li>
+        <li>Memilih SO dengan status draft.</li>
+        <li>Melakukan pengeditan lalu menyimpan kembali.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case UC-SO-03: Hapus Sales Order**  
-**Actor:** Petugas Sektor  
-**Deskripsi:** Petugas menghapus SO selama belum di-approve.  
-**Alur Normal:**
-- Petugas membuka daftar SO draft.
-- Klik tombol “Hapus”.
-- Sistem meminta konfirmasi, lalu menghapus.
-<hr>
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Petugas Sektor</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Petugas menghapus SO selama belum di-approve.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Alur Normal</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      <ol style="margin: 0; padding-left: 20px;">
+        <li>Petugas membuka daftar SO draft.</li>
+        <li>Klik tombol “Hapus”.</li>
+        <li>Sistem meminta konfirmasi, lalu menghapus.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<br>
 
 **🔹 Use Case 4: Kirim Notifikasi Approval ke Manajer**
-**Actor :** Sistem  
-**Trigger :** SO berhasil dibuat atau diubah dan disubmit untuk approval.  
-**Deskripsi :** Sistem mengirimkan notifikasi otomatis ke manajer sektor terkait.  
-**Output :** Manajer mendapat notifikasi untuk review dan approval.  
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Actor</td>
+    <td style="border: 1px solid #000; padding: 8px;">Sistem</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Deskripsi</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      SO berhasil dibuat atau diubah dan disubmit untuk approval.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px; font-weight: bold;">Output</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+Manajer mendapat notifikasi untuk review dan approval.
+    </td>
+  </tr>
+</table>
+
